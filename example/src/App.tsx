@@ -1,17 +1,14 @@
-import { useState, useEffect } from 'react';
-import { StyleSheet, View, Text } from 'react-native';
-import { multiply } from 'react-native-uangcermat-icon';
+import { StyleSheet, View } from 'react-native';
+import { Icon } from 'react-native-uangcermat-icon';
 
 export default function App() {
-  const [result, setResult] = useState<number | undefined>();
-
-  useEffect(() => {
-    multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Icon name="logoutDuotone" size={180} />
+      <View style={styles.spacer} />
+      <Icon name="logoutFill" size={180} />
+      <View style={styles.spacer} />
+      <Icon name="logoutOutline" size={180} />
     </View>
   );
 }
@@ -26,5 +23,8 @@ const styles = StyleSheet.create({
     width: 60,
     height: 60,
     marginVertical: 20,
+  },
+  spacer: {
+    height: 20,
   },
 });

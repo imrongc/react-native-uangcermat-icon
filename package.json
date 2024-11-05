@@ -29,12 +29,15 @@
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__",
-    "!**/.*"
+    "!**/.*",
+    ".svgrrc.js",
+    "declaration.d.ts"
   ],
   "scripts": {
     "example": "yarn workspace react-native-uangcermat-icon-example",
     "test": "jest",
     "typecheck": "tsc --noEmit",
+    "format:lint": "eslint --fix ./src/ --ext .js,.jsx,.ts,.tsx",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
@@ -178,5 +181,9 @@
     "type": "module-legacy",
     "languages": "java-swift",
     "version": "0.38.4"
+  },
+  "dependencies": {
+    "react-native-svg": "^15.8.0",
+    "react-native-svg-transformer": "^1.5.0"
   }
 }
