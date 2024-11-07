@@ -293,11 +293,11 @@ import {
 
 import type { IconProps, IconType } from './Icon.type';
 
-export const Icon = ({ name, color, secondary, accent, size }: IconProps) => {
+export const Icon = ({ name, color, secondary, tertiary, size }: IconProps) => {
   const svgFillIconProps = {
     fill: color || '#8c8c8c',
     secondary: secondary || '#d9d9d9',
-    accent: accent || '#f2f2f2',
+    tertiary: tertiary || '#f2f2f2',
     size,
   };
 

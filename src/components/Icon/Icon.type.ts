@@ -310,5 +310,5 @@ export interface IconProps {
   size?: number;
   color?: string;
   secondary?: string;
-  accent?: string;
+  tertiary?: string;
 }

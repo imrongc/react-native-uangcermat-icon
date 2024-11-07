@@ -4,7 +4,7 @@ import type { DuotoneIconType } from './DuotoneIcon.type';
 const LogoutDuotoneIcon = ({
   fill,
   secondary,
-  accent,
+  tertiary,
   size = 24,
 }: DuotoneIconType) => {
   return (
@@ -20,7 +20,7 @@ const LogoutDuotoneIcon = ({
       />
       <Path
         d="M8.44444 8.4C8.44444 7.01624 8.44444 6.00858 8.5699 5.25H8.44444C6.34931 5.25 5.30175 5.25 4.65087 5.90901C4 6.56802 4 7.62868 4 9.75V14.25C4 16.3713 4 17.432 4.65087 18.091C5.30175 18.75 6.34931 18.75 8.44444 18.75H8.5699C8.44444 17.9914 8.44444 16.9838 8.44444 15.6V12.675V11.325V8.4Z"
-        fill={accent}
+        fill={tertiary}
       />
       <Path
         fillRule="evenodd"

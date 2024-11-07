@@ -1,6 +1,6 @@
 export type DuotoneIconType = {
   fill?: string;
   secondary?: string;
-  accent?: string;
+  tertiary?: string;
   size?: number;
 };
