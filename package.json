@@ -1,6 +1,6 @@
 {
   "name": "react-native-uangcermat-icon",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "uangcermat icon for react native apps",
   "source": "./src/index.tsx",
   "main": "./lib/commonjs/index.js",
