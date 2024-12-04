@@ -87,7 +87,9 @@
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "react-native-svg": "*",
+    "react-native-svg-transformer": "*"
   },
   "workspaces": [
     "example"

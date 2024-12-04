@@ -11260,6 +11260,8 @@ __metadata:
   peerDependencies:
     react: "*"
     react-native: "*"
+    react-native-svg: "*"
+    react-native-svg-transformer: "*"
   languageName: unknown
   linkType: soft
 
