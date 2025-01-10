@@ -1,6 +1,6 @@
 import type { FillIconType } from './FillIcon.type';
 import Svg, { Path } from 'react-native-svg';
-const MagniferFillIcon = ({ fill, size = 24 }: FillIconType) => {
+const MagnifierFillIcon = ({ fill, size = 24 }: FillIconType) => {
   return (
     <Svg
       width={size.toString()}
@@ -18,4 +18,4 @@ const MagniferFillIcon = ({ fill, size = 24 }: FillIconType) => {
   );
 };
 
-export default MagniferFillIcon;
+export default MagnifierFillIcon;

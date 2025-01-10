@@ -1,6 +1,6 @@
 import type { OutlineIconType } from './OutlineIcon.type';
 import Svg, { Path } from 'react-native-svg';
-const MagniferOutlineIcon = ({ fill, size = 24 }: OutlineIconType) => {
+const MagnifierOutlineIcon = ({ fill, size = 24 }: OutlineIconType) => {
   return (
     <Svg
       width={size.toString()}
@@ -18,4 +18,4 @@ const MagniferOutlineIcon = ({ fill, size = 24 }: OutlineIconType) => {
   );
 };
 
-export default MagniferOutlineIcon;
+export default MagnifierOutlineIcon;

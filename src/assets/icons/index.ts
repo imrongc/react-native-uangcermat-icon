@@ -158,7 +158,7 @@ export { default as LockKeyholeFillIcon } from './fill/LockKeyholeFillIcon';
 export { default as LockKeyholeUnlockedFillIcon } from './fill/LockKeyholeUnlockedFillIcon';
 export { default as LoginFillIcon } from './fill/LoginFillIcon';
 export { default as LogoutFillIcon } from './fill/LogoutFillIcon';
-export { default as MagniferFillIcon } from './fill/MagniferFillIcon';
+export { default as MagnifierFillIcon } from './fill/MagnifierFillIcon';
 export { default as MapPointFillIcon } from './fill/MapPointFillIcon';
 export { default as MenuDotFillIcon } from './fill/MenuDotFillIcon';
 export { default as MinusFillIcon } from './fill/MinusFillIcon';
@@ -262,7 +262,7 @@ export { default as LockKeyholeOutlineIcon } from './outline/LockKeyholeOutlineI
 export { default as LockKeyholeUnlockedOutlineIcon } from './outline/LockKeyholeUnlockedOutlineIcon';
 export { default as LoginOutlineIcon } from './outline/LoginOutlineIcon';
 export { default as LogoutOutlineIcon } from './outline/LogoutOutlineIcon';
-export { default as MagniferOutlineIcon } from './outline/MagniferOutlineIcon';
+export { default as MagnifierOutlineIcon } from './outline/MagnifierOutlineIcon';
 export { default as MapPointOutlineIcon } from './outline/MapPointOutlineIcon';
 export { default as MenuDotOutlineIcon } from './outline/MenuDotOutlineIcon';
 export { default as MinusOutlineIcon } from './outline/MinusOutlineIcon';
