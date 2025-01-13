@@ -4,6 +4,7 @@ export { default as AttendanceDuotoneIcon } from './duotone/AttendanceDuotoneIco
 export { default as BellDuotoneIcon } from './duotone/BellDuotoneIcon';
 export { default as BoxDuotoneIcon } from './duotone/BoxDuotoneIcon';
 export { default as BuildingDuotoneIcon } from './duotone/BuildingDuotoneIcon';
+export { default as CalculatorDuotoneIcon } from './duotone/CalculatorDuotoneIcon';
 export { default as CalendarArrowDuotoneIcon } from './duotone/CalendarArrowDuotoneIcon';
 export { default as CalendarCheckDuotoneIcon } from './duotone/CalendarCheckDuotoneIcon';
 export { default as CalendarCloseDuotoneIcon } from './duotone/CalendarCloseDuotoneIcon';
@@ -22,6 +23,7 @@ export { default as ClipboardListDuotoneIcon } from './duotone/ClipboardListDuot
 export { default as ClipboardOkayDuotoneIcon } from './duotone/ClipboardOkayDuotoneIcon';
 export { default as ClipboardSearchDuotoneIcon } from './duotone/ClipboardSearchDuotoneIcon';
 export { default as ClipboardTextDuotoneIcon } from './duotone/ClipboardTextDuotoneIcon';
+export { default as ClipboardTimeDuotoneIcon } from './duotone/ClipboardTimeDuotoneIcon';
 export { default as ClipboardWarningDuotoneIcon } from './duotone/ClipboardWarningDuotoneIcon';
 export { default as ClockCircleDuotoneIcon } from './duotone/ClockCircleDuotoneIcon';
 export { default as CloseDuotoneIcon } from './duotone/CloseDuotoneIcon';
@@ -96,6 +98,7 @@ export { default as AttendanceFillIcon } from './fill/AttendanceFillIcon';
 export { default as BellFillIcon } from './fill/BellFillIcon';
 export { default as BoxFillIcon } from './fill/BoxFillIcon';
 export { default as BuildingsFillIcon } from './fill/BuildingsFillIcon';
+export { default as CalculatorFillIcon } from './fill/CalculatorFillIcon';
 export { default as CalendarArrowFillIcon } from './fill/CalendarArrowFillIcon';
 export { default as CalendarCheckFillIcon } from './fill/CalendarCheckFillIcon';
 export { default as CalendarCloseFillIcon } from './fill/CalendarCloseFillIcon';
@@ -200,6 +203,7 @@ export { default as AttendanceOutlineIcon } from './outline/AttendanceOutlineIco
 export { default as BellOutlineIcon } from './outline/BellOutlineIcon';
 export { default as BoxOutlineIcon } from './outline/BoxOutlineIcon';
 export { default as BuildingsOutlineIcon } from './outline/BuildingsOutlineIcon';
+export { default as CalculatorOutlineIcon } from './outline/CalculatorOutlineIcon';
 export { default as CalendarArrowOutlineIcon } from './outline/CalendarArrowOutlineIcon';
 export { default as CalendarCheckOutlineIcon } from './outline/CalendarCheckOutlineIcon';
 export { default as CalendarCloseOutlineIcon } from './outline/CalendarCloseOutlineIcon';
